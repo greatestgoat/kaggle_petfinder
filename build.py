@@ -16,7 +16,6 @@ def build_script():
     Path('build/script.py').write_text(
         template.replace('{file_data}', str(file_data)),
         encoding='utf8')
-    print("Hello")
 
 
 if __name__ == '__main__':
