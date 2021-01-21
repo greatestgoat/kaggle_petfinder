@@ -30,7 +30,7 @@ jobs:
         with:
           # https://github.com/harupy/push-kaggle-kernel/commit/266039f1ade2701a789e2c9b1e6cc360659edeff
           # {username}/{slug}
-          id: wakamezake/petfinder-sample-pipeline
+          id: goat/petfinder-sample-pipeline
           title: petfinder_sample_pipeline
           code_file: ./build/script.py
           language: python
@@ -40,4 +40,4 @@ jobs:
           competition_sources: |
             petfinder-adoption-prediction
           kernel_sources: |
-            wakamezake/extract-image-features-from-pretrained-nn
+            goat/extract-image-features-from-pretrained-nn
